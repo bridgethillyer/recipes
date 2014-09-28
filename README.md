@@ -1,11 +1,11 @@
 #recipes
 
 ## Usage
-run `make`
+run `make`  
 In browser, open file recipemvc.html
 
 ## Attribution
-UI based on Reagent [todomvc app](https://github.com/holmsand/reagent/tree/master/examples/todomvc)
+UI based on Reagent example [todomvc app](https://github.com/holmsand/reagent/tree/master/examples/todomvc)
 	
 ## License
 Copyright © 2014 Bridget Hillyer		 
