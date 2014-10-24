@@ -18,7 +18,7 @@
   :source-paths ["src"]
   :cljsbuild
   {:builds
-   {:client {:source-paths ["src"]
+   {:client {:source-paths ["src/cljs"]
              :compiler
              {:preamble ["reagent/react.js"]
               :output-dir "target/client"

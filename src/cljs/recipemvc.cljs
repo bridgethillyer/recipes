@@ -1,6 +1,7 @@
 (ns recipemvc
   (:require [reagent.core :as reagent :refer [atom]]))
 
+(def foo bar)
 (def recipes (atom (sorted-map)))
 
 (def counter (atom 0))
@@ -71,7 +72,8 @@
                         (if @editing-title "editing")
                         (if @editing-url "editing"))}
        [:div.view
-        [:label [:a {:href url :on-double-click #(reset! editing-title true)} title]]
+        [:label [:a {:href url 
+                    :on-double-click #(reset! editing-title true)} title]]
         [:input.toggle {:type "checkbox" :checked done
                         :on-change #(reset! editing-url true)}]
         [:button.destroy {:on-click #(delete id)}]]
