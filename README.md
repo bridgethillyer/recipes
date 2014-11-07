@@ -1,4 +1,4 @@
-#Recipe App
+#Recipes Web App
 
 A learning project for ladies who are studying clojure.
 
